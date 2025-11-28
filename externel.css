@@ -1,0 +1,343 @@
+
+
+
+/*------------Front Page starts------------- */
+
+/*part 1*/
+
+.FP1
+{
+    font-family:sans-serif;
+    letter-spacing:1px;
+
+}
+
+.FP1H1
+{
+    font-weight:bold;
+}
+
+
+/*part 2 */
+
+.FP2
+{
+   
+    background: linear-gradient(0deg, #94e1fb, #2a9cdd, #0384f5);
+    
+    
+
+}
+
+.cont2
+{
+   display:flex;
+   gap:30px;
+   height:100vh;
+   justify-content:center;
+   align-items:center;
+ 
+}
+
+.FP2I
+{
+  width:450px;
+  border-radius:50px;
+  border:8px solid rgb(39, 159, 239);
+  box-shadow:0 9px 15px rgba(0,0,0,0.25);
+
+
+
+
+}
+
+.FP2TEXT
+{
+  font-family:sans-serif;
+  letter-spacing:1px;
+  
+  
+}
+
+
+.FP2P1
+{
+    font-size:medium;
+}
+
+.FP2H1
+{
+    font-weight:bolder;
+    font-size:60px;
+
+}
+
+.FP2H6
+{
+
+    font-size:20px;
+}
+
+.FP2B1
+{
+    border-radius:50px;
+    padding:10px;
+    background:linear-gradient(180deg, rgb(225, 190, 152), rgb(235, 145, 145));
+    box-shadow:0 6px 15px rgba(0,0,0,0.25);
+    
+
+
+}
+
+
+/*for width 420px to 690px */
+
+@media (min-width:420px) and (max-width:690px) {
+
+.cont2
+{
+   display:flex;
+   flex-direction:column;
+   gap:30px;
+   height:100vh;
+   justify-content:center;
+   align-content:center;
+   flex-wrap:wrap;
+ 
+}
+
+.FP2I
+{
+  width:350px;
+  border-radius:25px;
+  border:8px solid rgb(39, 159, 239);
+  box-shadow:0 9px 15px rgba(0,0,0,0.25);
+
+}
+
+.FP2TEXT
+{
+  font-family:sans-serif;
+  letter-spacing:1px;
+  text-align:center
+  
+  
+}
+
+}
+
+@media (min-width:0px) and (max-width:420px) {
+
+.cont2
+{
+   display:flex;
+   flex-direction:column;
+   gap:30px;
+   height:100vh;
+   justify-content:center;
+   align-content:center;
+   flex-wrap:wrap;
+ 
+}
+
+.FP2I
+{
+  width:230px;
+  border-radius:25px;
+  border:8px solid rgb(39, 159, 239);
+  box-shadow:0 9px 15px rgba(0,0,0,0.25);
+
+}
+
+.FP2TEXT
+{
+  font-family:sans-serif;
+  letter-spacing:1px;
+  text-align:center;
+
+
+  
+  
+}
+
+}
+
+/*------------Front Page Starts------------- */
+
+/* ------------Second page starts-------------*/
+
+.SPS
+{
+    background:linear-gradient(0deg, #cbe6ef, #e0f2fc, #98def6);
+}
+
+.cont3
+{ 
+  height:100vh;
+  display:grid;
+  grid-template-columns:1fr 3fr 1fr 3fr 1fr 3fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+  
+  
+  
+ 
+
+}
+
+ .SPH1
+{  
+  font-weight:bolder;
+  font-family:sans-serif;
+  text-align:center;
+  position:relative;
+  right:20px;
+  
+  font-size: 60px;
+  margin-bottom: -90px;
+} 
+
+.divM1
+{
+   
+    height:200px;
+    width:300px;
+    border-radius:30px;
+
+    grid-area:2/2/4/3;
+
+    
+}
+
+.divM2
+{
+    
+    height:200px;
+    width:300px;
+    border-radius:30px;
+
+    grid-area:2/4/4/5;
+
+
+  
+
+
+}
+
+.divM3
+{
+    background:linear-gradient(90deg,red);
+    height:200px;
+    width:300px;
+    border-radius:30px;
+
+    grid-area:2/6/4/7;
+}
+
+.div1
+{
+  
+  background:linear-gradient(90deg,rgb(117, 230, 247));
+  
+  height:200px;
+  width:300px;
+  border-radius:30px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  box-shadow:0 1px 15px rgba(0,0,0,0.25);
+
+
+}
+
+.div2 
+{
+  background:linear-gradient(90deg,rgb(117, 230, 247));
+  
+  height:200px;
+  width:300px;
+  border-radius:30px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  box-shadow:0 1px 15px rgba(0,0,0,0.25);
+
+
+
+}
+
+.div3
+{
+  background:linear-gradient(90deg,rgb(117, 230, 247));
+  
+  height:200px;
+  width:300px;
+  border-radius:30px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  box-shadow:0 1px 15px rgba(0,0,0,0.25);
+
+
+}
+
+.divtext
+{
+  text-align:left;
+  letter-spacing:1px;
+  
+}
+
+/* for 0px to 900px */
+
+@media (min-width:0px) and (max-width:900px){
+
+.cont3
+{ 
+  height:180vh;
+  display:flex;
+  flex-direction:column;
+  gap:150px;
+  align-items:center;
+}
+
+
+ .SPH1
+{  
+  font-weight:bolder;
+  font-family:sans-serif;
+  text-align:center;
+  left:0px;
+  position:relative;
+  bottom:80px;
+  
+  font-size: 50px;
+  margin-bottom: -70px;
+  
+} 
+
+}
+
+/* 2nd page css endes */
+
+/* third page css*/
+
+.PT3
+{ 
+  background:linear-gradient(#cbe6ef, #e0f2fc, #98def6);
+  text-align:center;
+  font-family:sans-serif;
+  letter-spacing:1px;
+  padding-bottom:50px
+
+}
+
+.PTB1
+{
+  background:linear-gradient(#ffe0c8, #e4e2e0, #08f7af);
+  border-radius:100px;
+  padding:20px
+}
+
+
+
+
